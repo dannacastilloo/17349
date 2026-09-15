@@ -1,0 +1,29 @@
+2026/09/12 00:12:34 [emerg] 3549#0: unknown directive "location/" in /home/dannacastillo/17349/nginx/confs/sitio1.conf:7
+2026/09/12 00:13:02 [emerg] 3570#0: unknown directive "location/" in /home/dannacastillo/17349/nginx/confs/sitio1.conf:7
+2026/09/12 00:16:02 [emerg] 519#0: unknown directive "location/" in /home/dannacastillo/17349/nginx/confs/sitio1.conf:7
+2026/09/12 00:18:27 [emerg] 754#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2026/09/12 00:19:39 [error] 775#0: *2 "/home/dannacastillo/17349/nginx/3sitios/sitio1/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2026/09/12 00:19:39 [error] 775#0: *2 open() "/home/dannacastillo/17349/nginx/3sitios/sitio1/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/09/12 00:19:42 [error] 775#0: *2 "/home/dannacastillo/17349/nginx/3sitios/sitio1/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2026/09/12 00:19:42 [error] 775#0: *2 open() "/home/dannacastillo/17349/nginx/3sitios/sitio1/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/09/12 00:19:56 [error] 775#0: *3 "/home/dannacastillo/17349/nginx/3sitios/sitio1/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2026/09/12 00:19:56 [error] 775#0: *3 open() "/home/dannacastillo/17349/nginx/3sitios/sitio1/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2026/09/12 00:25:08 [error] 1090#0: *1 "/home/dannacastillo/17349/nginx/3sitios/sitio1/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2026/09/12 00:25:08 [error] 1090#0: *1 open() "/home/dannacastillo/17349/nginx/3sitios/sitio1/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2026/09/12 00:25:10 [error] 1090#0: *1 "/home/dannacastillo/17349/nginx/3sitios/sitio1/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1"
+2026/09/12 00:25:11 [error] 1090#0: *1 open() "/home/dannacastillo/17349/nginx/3sitios/sitio1/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2026/09/12 00:26:01 [error] 1090#0: *3 "/home/dannacastillo/17349/nginx/3sitios/sitio1/index.html" is forbidden (13: Permission denied), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2026/09/12 00:26:01 [error] 1090#0: *3 open() "/home/dannacastillo/17349/nginx/3sitios/sitio1/favicon.ico" failed (13: Permission denied), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/09/12 00:27:52 [error] 1151#0: *1 open() "/home/dannacastillo/17349/nginx/3sitios/sitio1/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2026/09/12 00:38:33 [alert] 1235#0: unlink() "/home/dannacastillo/17349/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2026/09/12 00:38:33 [alert] 1246#0: unlink() "/home/dannacastillo/17349/nginx/logs/nginx.pid" failed (2: No such file or directory)
+2026/09/12 00:39:23 [error] 1323#0: *1 open() "/home/dannacastillo/17349/nginx/3sitios/sitio2/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:82", referrer: "http://localhost:82/"
+2026/09/12 00:39:32 [error] 1334#0: *1 open() "/home/dannacastillo/17349/nginx/3sitios/sitio3/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:83", referrer: "http://localhost:83/"
+2026/09/15 14:33:07 [error] 785#0: *1 open() "/home/dannacastillo/17349/nginx/3sitios/sitio3/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:83", referrer: "http://localhost:83/"
+2026/09/15 15:32:55 [emerg] 1657#0: bind() to 0.0.0.0:80 failed (13: Permission denied)
+2026/09/15 15:42:08 [notice] 1841#0: signal process started
+2026/09/15 15:42:08 [error] 1841#0: open() "/home/dannacastillo/17349/nginx/logs/sitio1.pid" failed (2: No such file or directory)
+2026/09/15 15:45:32 [notice] 1928#0: signal process started
+2026/09/15 15:45:32 [error] 1928#0: open() "/home/dannacastillo/17349/nginx/logs/sitio1.pid" failed (2: No such file or directory)
+2026/09/15 15:45:54 [notice] 1941#0: signal process started
+2026/09/15 15:45:54 [error] 1941#0: open() "/home/dannacastillo/17349/nginx/logs/sitio1.pid" failed (2: No such file or directory)

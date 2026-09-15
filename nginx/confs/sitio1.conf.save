@@ -1,0 +1,12 @@
+events{
+	worker_connections 768;
+}
+http{
+	server{
+		listen 81;
+	location / {
+		root /home/dannacastillo/17349/nginx/3sitios/sitio1;
+		index index.html;
+	}
+	}
+}
