@@ -41,3 +41,6 @@
 2026/09/15 16:27:01 [emerg] 5708#0: still could not bind()
 2026/09/15 16:27:26 [error] 763#0: *1 open() "/home/dannacastillo/17349/nginx/3sitios/sitio1/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:81", referrer: "http://localhost:81/"
 2026/09/15 16:28:14 [error] 774#0: *1 open() "/home/dannacastillo/17349/nginx/3sitios/sitio2/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/09/17 13:43:28 [notice] 967#0: signal process started
+2026/09/17 13:44:04 [emerg] 980#0: invalid parameter "weight" in /home/dannacastillo/17349/nginx/confs/balanceo2.conf:7
+2026/09/17 13:46:31 [emerg] 1003#0: invalid parameter "weight" in /home/dannacastillo/17349/nginx/confs/balanceo2.conf:7
